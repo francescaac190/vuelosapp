@@ -1,0 +1,529 @@
+{
+    "datos": [
+        {
+            "id": 3,
+            "nombre": "Aeropuerto Internacional de Kabul",
+            "iata": "KBL",
+            "id_ciudad": 3,
+            "concatenacion": "Kabul KBL, Aeropuerto Internacional de Kabul KBL"
+        },
+        {
+            "id": 4,
+            "nombre": "Aeropuerto Internacional de Kandahar",
+            "iata": "KDH",
+            "id_ciudad": 4,
+            "concatenacion": "Kandahar KBL, Aeropuerto Internacional de Kandahar KDH"
+        },
+        {
+            "id": 5,
+            "nombre": "Maimana Airport",
+            "iata": "MMZ",
+            "id_ciudad": 5,
+            "concatenacion": "Maimama SEZ, Maimana Airport MMZ"
+        },
+        {
+            "id": 6,
+            "nombre": "Aeropuerto de Mazar-e Sarif",
+            "iata": "MZR",
+            "id_ciudad": 6,
+            "concatenacion": "Mazar-i-sharif MRU, Aeropuerto de Mazar-e Sarif MZR"
+        },
+        {
+            "id": 7,
+            "nombre": "Shindand Airport",
+            "iata": "OAH",
+            "id_ciudad": 7,
+            "concatenacion": "Shindand SHJ, Shindand Airport OAH"
+        },
+        {
+            "id": 8,
+            "nombre": "Konduz Airport",
+            "iata": "UND",
+            "id_ciudad": 8,
+            "concatenacion": "Kunduz KUL, Konduz Airport UND"
+        },
+        {
+            "id": 9,
+            "nombre": "Aeropuerto de Fayzabad",
+            "iata": "FBD",
+            "id_ciudad": 9,
+            "concatenacion": "Faizabad SXB, Aeropuerto de Fayzabad FBD"
+        },
+        {
+            "id": 10,
+            "nombre": "Base Aérea Bagram",
+            "iata": "OAI",
+            "id_ciudad": 3,
+            "concatenacion": "Kabul KBL, Base Aérea Bagram OAI"
+        },
+        {
+            "id": 11,
+            "nombre": "Tarin Kowt Airport",
+            "iata": "TII",
+            "id_ciudad": 10,
+            "concatenacion": "Tarin Kowt TJA, Tarin Kowt Airport TII"
+        },
+        {
+            "id": 12,
+            "nombre": "Zaranj Airport",
+            "iata": "ZAJ",
+            "id_ciudad": 11,
+            "concatenacion": "Zaranj ZAZ, Zaranj Airport ZAJ"
+        },
+        {
+            "id": 13,
+            "nombre": "Chakcharan Airport",
+            "iata": "CCN",
+            "id_ciudad": 12,
+            "concatenacion": "Chaghcharan CYO, Chakcharan Airport CCN"
+        },
+        {
+            "id": 14,
+            "nombre": "Base Aérea Camp Bastion",
+            "iata": "OAZ",
+            "id_ciudad": 13,
+            "concatenacion": "Camp Bastion CBR, Base Aérea Camp Bastion OAZ"
+        },
+        {
+            "id": 15,
+            "nombre": "Khost Airport",
+            "iata": "KHT",
+            "id_ciudad": 14,
+            "concatenacion": "Khost KRT, Khost Airport KHT"
+        },
+        {
+            "id": 16,
+            "nombre": "Sharana Airstrip",
+            "iata": "OAS",
+            "id_ciudad": 15,
+            "concatenacion": "Sharona SHJ, Sharana Airstrip OAS"
+        },
+        {
+            "id": 17,
+            "nombre": "Shank Air Base",
+            "iata": "OAA",
+            "id_ciudad": 16,
+            "concatenacion": "Shank SHA, Shank Air Base OAA"
+        },
+        {
+            "id": 22,
+            "nombre": "Aeropuerto Internacional Tirana Madre Teresa",
+            "iata": "TIA",
+            "id_ciudad": 21,
+            "concatenacion": "Tirana TIA, Aeropuerto Internacional Tirana Madre Teresa TIA"
+        },
+        {
+            "id": 67,
+            "nombre": "Nova Lisboa Airport",
+            "iata": "NOV",
+            "id_ciudad": 65,
+            "concatenacion": "Huambo HOU, Nova Lisboa Airport NOV"
+        },
+        {
+            "id": 69,
+            "nombre": "Aeropuerto Internacional Quatro de Fevereiro",
+            "iata": "LAD",
+            "id_ciudad": 67,
+            "concatenacion": "Luanda LAD, Aeropuerto Internacional Quatro de Fevereiro LAD"
+        },
+        {
+            "id": 97,
+            "nombre": "Aeropuerto de Sauce Viejo",
+            "iata": "SFN",
+            "id_ciudad": 95,
+            "concatenacion": "Santa Fe SRZ, Aeropuerto de Sauce Viejo SFN"
+        },
+        {
+            "id": 98,
+            "nombre": "Aeroparque Jorge Newbery",
+            "iata": "AEP",
+            "id_ciudad": 96,
+            "concatenacion": "Buenos Aires BUE, Aeroparque Jorge Newbery AEP"
+        },
+        {
+            "id": 99,
+            "nombre": "Aeropuerto Internacional Ing. Ambrosio Taravella",
+            "iata": "COR",
+            "id_ciudad": 97,
+            "concatenacion": "Cordoba CPH, Aeropuerto Internacional Ing. Ambrosio Taravella COR"
+        },
+        {
+            "id": 105,
+            "nombre": "Aeropuerto Internacional Gobernador Francisco Gabrielli",
+            "iata": "MDZ",
+            "id_ciudad": 103,
+            "concatenacion": "Mendoza MEM, Aeropuerto Internacional Gobernador Francisco Gabrielli MDZ"
+        },
+        {
+            "id": 109,
+            "nombre": "Aeropuerto Vicecomodoro Ángel de la Paz Aragonés",
+            "iata": "SDE",
+            "id_ciudad": 107,
+            "concatenacion": "Santiago Del Estero SCQ, Aeropuerto Vicecomodoro Ángel de la Paz Aragonés SDE"
+        },
+        {
+            "id": 111,
+            "nombre": "Aeropuerto Teniente Benjamin Matienzo",
+            "iata": "TUC",
+            "id_ciudad": 109,
+            "concatenacion": "Tucuman TUS, Aeropuerto Teniente Benjamin Matienzo TUC"
+        },
+        {
+            "id": 120,
+            "nombre": "Aeropuerto Internacional de Puerto Iguazú",
+            "iata": "IGR",
+            "id_ciudad": 118,
+            "concatenacion": "Iguazu Falls IBZ, Aeropuerto Internacional de Puerto Iguazú IGR"
+        },
+        {
+            "id": 125,
+            "nombre": "Aeropuerto Internacional de Salta Martín Miguel de Güemes",
+            "iata": "SLA",
+            "id_ciudad": 123,
+            "concatenacion": "Salta SLC, Aeropuerto Internacional de Salta Martín Miguel de Güemes SLA"
+        },
+        {
+            "id": 126,
+            "nombre": "Aeropuerto Internacional Gobernador Horacio Guzmán",
+            "iata": "JUJ",
+            "id_ciudad": 124,
+            "concatenacion": "Jujuy JNB, Aeropuerto Internacional Gobernador Horacio Guzmán JUJ"
+        },
+        {
+            "id": 151,
+            "nombre": "Aeropuerto Presidente Peron",
+            "iata": "NQN",
+            "id_ciudad": 149,
+            "concatenacion": "Neuquen NAT, Aeropuerto Presidente Peron NQN"
+        },
+        {
+            "id": 159,
+            "nombre": "Aeropuerto Internacional Ministro Pistarini",
+            "iata": "EZE",
+            "id_ciudad": 96,
+            "concatenacion": "Buenos Aires BUE, Aeropuerto Internacional Ministro Pistarini EZE"
+        },
+        {
+            "id": 199,
+            "nombre": "Aeropuerto Internacional Melbourne",
+            "iata": "MEL",
+            "id_ciudad": 190,
+            "concatenacion": "Melbourne MEL, Aeropuerto Internacional Melbourne MEL"
+        },
+        {
+            "id": 207,
+            "nombre": "Aeropuerto Internacional Perth",
+            "iata": "PER",
+            "id_ciudad": 194,
+            "concatenacion": "Perth PER, Aeropuerto Internacional Perth PER"
+        },
+        {
+            "id": 215,
+            "nombre": "Aeropuerto Internacional Kingsford Smith",
+            "iata": "SYD",
+            "id_ciudad": 201,
+            "concatenacion": "Sydney SYD, Aeropuerto Internacional Kingsford Smith SYD"
+        },
+        {
+            "id": 540,
+            "nombre": "Jorge Wilsterman International Airport",
+            "iata": "CBB",
+            "id_ciudad": 496,
+            "concatenacion": "Cochabamba CBB, Jorge Wilsterman International Airport CBB"
+        },
+        {
+            "id": 542,
+            "nombre": "Capitán Aníbal Arab Airport",
+            "iata": "CIJ",
+            "id_ciudad": 498,
+            "concatenacion": "Cobija CIJ, Capitán Aníbal Arab Airport CIJ"
+        },
+        {
+            "id": 543,
+            "nombre": "Aeropuerto Internacional El Alto",
+            "iata": "LPB",
+            "id_ciudad": 499,
+            "concatenacion": "La Paz LPB, Aeropuerto Internacional El Alto LPB"
+        },
+        {
+            "id": 544,
+            "nombre": "Juan Mendoza Airport",
+            "iata": "ORU",
+            "id_ciudad": 500,
+            "concatenacion": "Oruro ORL, Juan Mendoza Airport ORU"
+        },
+        {
+            "id": 548,
+            "nombre": "Aeropuerto Internacional de Alcantarí",
+            "iata": "SRE",
+            "id_ciudad": 504,
+            "concatenacion": "Sucre SRE, Aeropuerto Internacional de Alcantarí SRE"
+        },
+        {
+            "id": 549,
+            "nombre": "Aeropuerto de Capitan Oriel Lea Plaza",
+            "iata": "TJA",
+            "id_ciudad": 505,
+            "concatenacion": "Tarija TJA, Aeropuerto de Capitan Oriel Lea Plaza TJA"
+        },
+        {
+            "id": 550,
+            "nombre": "Teniente Av. Jorge Henrich Arauz Airport",
+            "iata": "TDD",
+            "id_ciudad": 506,
+            "concatenacion": "Trinidad TDD, Teniente Av. Jorge Henrich Arauz Airport TDD"
+        },
+        {
+            "id": 552,
+            "nombre": "Aeropuerto Internacional Viru Viru",
+            "iata": "VVI",
+            "id_ciudad": 508,
+            "concatenacion": "Santa Cruz de la Sierra SRZ, Aeropuerto Internacional Viru Viru VVI"
+        },
+        {
+            "id": 555,
+            "nombre": "Capitán de Av. Emilio Beltrán Airport",
+            "iata": "GYA",
+            "id_ciudad": 510,
+            "concatenacion": "Guayaramerín GYA, Capitán de Av. Emilio Beltrán Airport GYA"
+        },
+        {
+            "id": 557,
+            "nombre": "Capitán Av. Selin Zeitun Lopez Airport",
+            "iata": "RIB",
+            "id_ciudad": 512,
+            "concatenacion": "Riberalta REK, Capitán Av. Selin Zeitun Lopez Airport RIB"
+        },
+        {
+            "id": 560,
+            "nombre": "Uyuni Airport",
+            "iata": "UYU",
+            "id_ciudad": 515,
+            "concatenacion": "Uyuni UYU, Uyuni Airport UYU"
+        },
+        {
+            "id": 561,
+            "nombre": "Rurenabaque Airport",
+            "iata": "RBQ",
+            "id_ciudad": 516,
+            "concatenacion": "Rurrenabaque RBQ, Rurenabaque Airport RBQ"
+        },
+        {
+            "id": 587,
+            "nombre": "Aeropuerto Internacional Presidente Juscelino Kubistschek",
+            "iata": "BSB",
+            "id_ciudad": 542,
+            "concatenacion": "Brasilia BSB, Aeropuerto Internacional Presidente Juscelino Kubistschek BSB"
+        },
+        {
+            "id": 611,
+            "nombre": "Aeropuerto Internacional Rio Galeão – Tom Jobim",
+            "iata": "GIG",
+            "id_ciudad": 564,
+            "concatenacion": "Rio De Janeiro RIO, Aeropuerto Internacional Rio Galeão – Tom Jobim GIG"
+        },
+        {
+            "id": 614,
+            "nombre": "Aeropuerto Internacional de São Paulo-Guarulhos",
+            "iata": "GRU",
+            "id_ciudad": 567,
+            "concatenacion": "Sao Paulo SDQ, Aeropuerto Internacional de São Paulo-Guarulhos GRU"
+        },
+        {
+            "id": 943,
+            "nombre": "Aeropuerto Internacional Jean-Lesage de Quebec",
+            "iata": "YQB",
+            "id_ciudad": 883,
+            "concatenacion": "Quebec PDP, Aeropuerto Internacional Jean-Lesage de Quebec YQB"
+        },
+        {
+            "id": 1263,
+            "nombre": "Aeropuerto Internacional Arturo Merino Benítez",
+            "iata": "SCL",
+            "id_ciudad": 1192,
+            "concatenacion": "Santiago SDR, Aeropuerto Internacional Arturo Merino Benítez SCL"
+        },
+        {
+            "id": 1532,
+            "nombre": "Aeropuerto Internacional El Dorado",
+            "iata": "BOG",
+            "id_ciudad": 1456,
+            "concatenacion": "Bogota BOG, Aeropuerto Internacional El Dorado BOG"
+        },
+        {
+            "id": 1782,
+            "nombre": "Aeropuerto Internacional Mariscal Sucre",
+            "iata": "UIO",
+            "id_ciudad": 1699,
+            "concatenacion": "Quito UIO, Aeropuerto Internacional Mariscal Sucre UIO"
+        },
+        {
+            "id": 1986,
+            "nombre": "Aeropuerto de París-Charles de Gaulle",
+            "iata": "CDG",
+            "id_ciudad": 1897,
+            "concatenacion": "Paris PAR, Aeropuerto de París-Charles de Gaulle CDG"
+        },
+        {
+            "id": 2109,
+            "nombre": "Aeropuerto Internacional Berlin-Schönefeld",
+            "iata": "SXF",
+            "id_ciudad": 2018,
+            "concatenacion": "Berlin VER, Aeropuerto Internacional Berlin-Schönefeld SXF"
+        },
+        {
+            "id": 2115,
+            "nombre": "Aeropuerto de Berlín-Tempelhof",
+            "iata": "THF",
+            "id_ciudad": 2018,
+            "concatenacion": "Berlin VER, Aeropuerto de Berlín-Tempelhof THF"
+        },
+        {
+            "id": 2700,
+            "nombre": "Aeropuerto de Dublin",
+            "iata": "DUB",
+            "id_ciudad": 2597,
+            "concatenacion": "Dublin DUB, Aeropuerto de Dublin DUB"
+        },
+        {
+            "id": 2767,
+            "nombre": "Aeropuerto de Roma-Fiumicino",
+            "iata": "FCO",
+            "id_ciudad": 2662,
+            "concatenacion": "Rome ROM, Aeropuerto de Roma-Fiumicino FCO"
+        },
+        {
+            "id": 2787,
+            "nombre": "Aeropuerto Internacional Narita",
+            "iata": "NRT",
+            "id_ciudad": 2681,
+            "concatenacion": "Tokyo TYO, Aeropuerto Internacional Narita NRT"
+        },
+        {
+            "id": 3169,
+            "nombre": "Aeropuerto Internacional Benito Juárez",
+            "iata": "MEX",
+            "id_ciudad": 3053,
+            "concatenacion": "Mexico City MID, Aeropuerto Internacional Benito Juárez MEX"
+        },
+        {
+            "id": 3194,
+            "nombre": "Aeropuerto Internacional Cancún",
+            "iata": "CUN",
+            "id_ciudad": 3077,
+            "concatenacion": "Cancun CUN, Aeropuerto Internacional Cancún CUN"
+        },
+        {
+            "id": 3317,
+            "nombre": "Aeropuerto de Ámsterdam-Schiphol",
+            "iata": "AMS",
+            "id_ciudad": 3199,
+            "concatenacion": "Amsterdam AMS, Aeropuerto de Ámsterdam-Schiphol AMS"
+        },
+        {
+            "id": 3453,
+            "nombre": "Aeropuerto de Oslo Gardermoen",
+            "iata": "OSL",
+            "id_ciudad": 3333,
+            "concatenacion": "Oslo OSL, Aeropuerto de Oslo Gardermoen OSL"
+        },
+        {
+            "id": 3557,
+            "nombre": "Aeropuerto Internacional de Tocumen",
+            "iata": "PTY",
+            "id_ciudad": 3436,
+            "concatenacion": "Panama City PTY, Aeropuerto Internacional de Tocumen PTY"
+        },
+        {
+            "id": 3599,
+            "nombre": "Aeropuerto Internacional Silvio Pettirossi",
+            "iata": "ASU",
+            "id_ciudad": 3478,
+            "concatenacion": "Asuncion ASU, Aeropuerto Internacional Silvio Pettirossi ASU"
+        },
+        {
+            "id": 3615,
+            "nombre": "Aeropuerto Internacional Jorge Chávez",
+            "iata": "LIM",
+            "id_ciudad": 3494,
+            "concatenacion": "Lima LIM, Aeropuerto Internacional Jorge Chávez LIM"
+        },
+        {
+            "id": 3632,
+            "nombre": "Alejandro Velasco Astete International Airport",
+            "iata": "CUZ",
+            "id_ciudad": 3511,
+            "concatenacion": "Cuzco CWB, Alejandro Velasco Astete International Airport CUZ"
+        },
+        {
+            "id": 4170,
+            "nombre": "Aeropuerto de Barcelona-El Prat",
+            "iata": "BCN",
+            "id_ciudad": 4023,
+            "concatenacion": "Barcelona BCN, Aeropuerto de Barcelona-El Prat BCN"
+        },
+        {
+            "id": 4178,
+            "nombre": "Aeropuerto Adolfo Suárez Madrid - Barajas",
+            "iata": "MAD",
+            "id_ciudad": 4031,
+            "concatenacion": "Madrid MAD, Aeropuerto Adolfo Suárez Madrid - Barajas MAD"
+        },
+        {
+            "id": 4544,
+            "nombre": "Aeropuerto Internacional de Dubái",
+            "iata": "DXB",
+            "id_ciudad": 4372,
+            "concatenacion": "Dubai DXB, Aeropuerto Internacional de Dubái DXB"
+        },
+        {
+            "id": 4576,
+            "nombre": "Aeropuerto de Gatwick",
+            "iata": "LGW",
+            "id_ciudad": 4395,
+            "concatenacion": "London LFW, Aeropuerto de Gatwick LGW"
+        },
+        {
+            "id": 4580,
+            "nombre": "Aeropuerto de Heathrow",
+            "iata": "LHR",
+            "id_ciudad": 4395,
+            "concatenacion": "London LFW, Aeropuerto de Heathrow LHR"
+        },
+        {
+            "id": 4814,
+            "nombre": "Aeropuerto Internacional de Miami",
+            "iata": "MIA",
+            "id_ciudad": 4630,
+            "concatenacion": "Miami MIA, Aeropuerto Internacional de Miami MIA"
+        },
+        {
+            "id": 4945,
+            "nombre": "Aeropuerto Internacional Washington Dulles",
+            "iata": "IAD",
+            "id_ciudad": 4582,
+            "concatenacion": "Washington VIT, Aeropuerto Internacional Washington Dulles IAD"
+        },
+        {
+            "id": 5025,
+            "nombre": "Aeropuerto Internacional John F. Kennedy",
+            "iata": "JFK",
+            "id_ciudad": 4736,
+            "concatenacion": "New York NYC, Aeropuerto Internacional John F. Kennedy JFK"
+        },
+        {
+            "id": 5058,
+            "nombre": "Aeropuerto Internacional O'Hare",
+            "iata": "ORD",
+            "id_ciudad": 4770,
+            "concatenacion": "Chicago CHI, Aeropuerto Internacional O'Hare ORD"
+        },
+        {
+            "id": 5912,
+            "nombre": "Aeropuerto Internacional de Carrasco",
+            "iata": "MVD",
+            "id_ciudad": 5558,
+            "concatenacion": "Montevideo MVD, Aeropuerto Internacional de Carrasco MVD"
+        }
+    ]
+}

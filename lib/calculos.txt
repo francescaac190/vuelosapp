@@ -1,0 +1,42 @@
+
+ int value1 = 1;
+  int value2 = 0;
+  int value3 = 0;
+
+  late int selectedRadio;
+  int economy = 1;
+  int preEconomy = 2;
+  int business = 3;
+
+  loadData() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      prefs.setInt("Adultos", value1);
+      value1 = prefs.getInt("Adultos")!;
+      prefs.setInt("Infantes", value2);
+      value2 = prefs.getInt("Infantes")!;
+      prefs.setInt("Bebes", value3);
+      value3 = prefs.getInt("Bebes")!;
+    });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    loadData();
+    selectedRadio = 0;
+  }
+
+  setSelectedRadio(int val) {
+    setState(() {
+      selectedRadio = val;
+    });
+  }
+
+  int getTotalPassengers() {
+    return value1 + value2 + value3;
+  }
+
+  int getRemainingSeats() {
+    return 9 - getTotalPassengers();
+  }
