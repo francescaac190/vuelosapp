@@ -7,8 +7,8 @@ class CustomButton extends StatelessWidget {
   final VoidCallback onPressed;
   final Color? color;
   final Color? textColor;
-  final double? width;
-  final double? height;
+  final double width;
+  final double height;
   final bool isLoading;
 
   const CustomButton({
@@ -17,8 +17,8 @@ class CustomButton extends StatelessWidget {
     required this.onPressed,
     this.color,
     this.textColor,
-    this.width,
-    this.height,
+    required this.width,
+    required this.height,
     this.isLoading = false,
   });
 
@@ -33,7 +33,7 @@ class CustomButton extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12.0),
         ),
-        minimumSize: Size(width!, height!),
+        minimumSize: Size(width, height),
       ),
       child: isLoading
           ? const CircularProgressIndicator(color: blanco)

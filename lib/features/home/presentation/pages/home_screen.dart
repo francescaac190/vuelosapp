@@ -10,6 +10,8 @@ import 'package:starzinfinite/features/reservas/presentation/pages/reservas_scre
 import 'dart:math';
 
 import '../../../../core/cores.dart';
+import '../../../vuelos/presentation/screens/flight_list_screen.dart';
+import '../../domain/entities/flight_settings_entity.dart';
 import '../providers/aeropuerto_provider.dart';
 import '../providers/tipovuelo_provider.dart';
 import '../widgets/fecha_selector.dart';
@@ -202,8 +204,23 @@ class _VuelosState extends State<Vuelos> with TickerProviderStateMixin {
       );
     } else {
       // Crear array con los datos seleccionados y print en consola
-      List<String> datosViaje = [origen, destino, fechaSalida, fechaRegreso];
-      print("Datos del viaje: $datosViaje");
+      FlightSetting datosViaje = FlightSetting(
+          adultos: adultos.toString(),
+          ninos: ninos.toString(),
+          bebes: bebes.toString(),
+          origen: origen,
+          destino: destino,
+          fechaSalida: fechaSalida,
+          fechaRegreso: fechaRegreso,
+          tipoVuelo: tipoVueloProvider.tipoVuelo);
+
+      print(datosViaje);
+
+      Navigator.push(
+          context,
+          MaterialPageRoute(
+              builder: (BuildContext context) =>
+                  FlightListPage(flightsSettings: datosViaje)));
     }
   }
 
