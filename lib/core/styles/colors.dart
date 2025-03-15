@@ -11,6 +11,7 @@ const rojo = Color.fromARGB(255, 255, 40, 40);
 
 // Text colors
 const blanco = Color(0xFFFFFFFF);
+const grisOscBeePay = Color(0xFF6B6B6B);
 const kGrey600 = Color(0xFF8A8A8E);
 const kGrey500 = Color(0xFF9F9FA7);
 const kGrey400 = Color(0xFFBABAC2);
