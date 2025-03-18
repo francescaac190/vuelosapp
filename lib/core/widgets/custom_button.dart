@@ -29,7 +29,7 @@ class CustomButton extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         elevation: 0,
         backgroundColor: color,
-        disabledBackgroundColor: kGrey600,
+        disabledBackgroundColor: gris7,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12.0),
         ),

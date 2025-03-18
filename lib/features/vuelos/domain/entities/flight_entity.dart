@@ -51,7 +51,7 @@ class Vuelos {
   final String arrivalCiudad;
   final String arrivalAeropuerto;
   final String arrivalChangeDayIndicator;
-  final String arrivalDate;
+  final DateTime arrivalDate;
   final String arrivalTime;
   final String mesArrival;
   final String arrivalDateOfWeekName;
@@ -61,7 +61,7 @@ class Vuelos {
   final String departureAirport;
   final String departureCiudad;
   final String? departureAeropuerto;
-  final String departureDate;
+  final DateTime departureDate;
   final String mesDeparture;
   final String departureDateOfWeekName;
   final String departureTime;

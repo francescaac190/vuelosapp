@@ -7,3 +7,5 @@ export 'styles/styles.dart';
 export 'widgets/auxiliar_widget.dart';
 export 'widgets/custom_button.dart';
 export 'widgets/spacing.dart';
+
+export 'config/systemmanager.dart';

@@ -29,7 +29,7 @@ class TipoVueloDropdown extends StatelessWidget {
           style: medium(blackBeePay, 14),
           icon: const Icon(
             Icons.keyboard_arrow_down_rounded,
-            color: kGrey600,
+            color: gris7,
           ),
           dropdownColor: blanco,
           underline: const SizedBox(),

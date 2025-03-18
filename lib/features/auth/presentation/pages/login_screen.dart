@@ -61,11 +61,11 @@ class _LoginPageState extends State<LoginPage> {
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                       hintText: "Teléfono",
-                      hintStyle: medium(kGrey300, 16),
+                      hintStyle: medium(gris3, 16),
                       focusColor: starzAzul,
                       border: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: kGrey300,
+                          color: gris3,
                           width: 1.5,
                         ),
                       ),
@@ -77,7 +77,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: kGrey300,
+                          color: gris3,
                           width: 1.5,
                         ),
                       ),
@@ -90,11 +90,11 @@ class _LoginPageState extends State<LoginPage> {
                     obscureText: _obscureText,
                     decoration: InputDecoration(
                       hintText: "Contraseña",
-                      hintStyle: medium(kGrey300, 16),
+                      hintStyle: medium(gris3, 16),
                       focusColor: starzAzul,
                       border: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: kGrey300,
+                          color: gris3,
                           width: 1.5,
                         ),
                       ),
@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: kGrey300,
+                          color: gris3,
                           width: 1.5,
                         ),
                       ),

@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:starzinfinite/features/home/presentation/providers/pasajeros_provider.dart';
@@ -49,8 +51,8 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         iconSize: 25,
-        selectedLabelStyle: medium(kGrey300, 15),
-        unselectedLabelStyle: medium(kGrey300, 14),
+        selectedLabelStyle: medium(gris3, 15),
+        unselectedLabelStyle: medium(gris3, 14),
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
@@ -214,7 +216,8 @@ class _VuelosState extends State<Vuelos> with TickerProviderStateMixin {
           fechaRegreso: fechaRegreso,
           tipoVuelo: tipoVueloProvider.tipoVuelo);
 
-      print(datosViaje);
+      FileSystemManager.instance.flightSetting = datosViaje;
+      print(FileSystemManager.instance.flightSetting);
 
       Navigator.push(
           context,
@@ -233,11 +236,11 @@ class _VuelosState extends State<Vuelos> with TickerProviderStateMixin {
           Text(
             '¿A DÓNDE QUERÉS VIAJAR?',
             textAlign: TextAlign.center,
-            style: medium(kGrey600, 24),
+            style: medium(gris7, 24),
           ),
           Text(
             'Seleccioná los detalles del vuelo',
-            style: medium(kGrey600, 17),
+            style: medium(gris7, 17),
           ),
           Divider(
             height: 24,
@@ -315,7 +318,7 @@ class _VuelosState extends State<Vuelos> with TickerProviderStateMixin {
           addVerticalSpace(16),
           Text(
             'Seleccioná tus fechas:',
-            style: medium(kGrey600, 17),
+            style: medium(gris7, 17),
           ),
           FechaSelector(),
           addVerticalSpace(16),

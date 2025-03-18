@@ -66,11 +66,11 @@ class Settings extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.arrow_forward_ios_rounded,
-            color: kGrey600,
+            color: gris7,
           ),
         ),
         Divider(
-          color: kGrey200,
+          color: gris2,
           height: 0,
         ),
         ListTile(
@@ -81,11 +81,11 @@ class Settings extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.arrow_forward_ios_rounded,
-            color: kGrey600,
+            color: gris7,
           ),
         ),
         Divider(
-          color: kGrey200,
+          color: gris2,
           height: 0,
         ),
         ListTile(
@@ -96,15 +96,15 @@ class Settings extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.arrow_forward_ios_rounded,
-            color: kGrey600,
+            color: gris7,
           ),
         ),
         Divider(
-          color: kGrey200,
+          color: gris2,
           height: 0,
         ),
         Divider(
-          color: kGrey200,
+          color: gris2,
           height: 0,
         ),
         ListTile(
@@ -115,11 +115,11 @@ class Settings extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.arrow_forward_ios_rounded,
-            color: kGrey600,
+            color: gris7,
           ),
         ),
         Divider(
-          color: kGrey200,
+          color: gris2,
           height: 0,
         ),
       ],
@@ -138,7 +138,7 @@ class Saldo extends StatelessWidget {
       children: [
         Divider(
           height: 0,
-          color: kGrey200,
+          color: gris2,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -153,7 +153,7 @@ class Saldo extends StatelessWidget {
                   ),
                   Text(
                     'saldo',
-                    style: medium(kGrey600, 16),
+                    style: medium(gris7, 16),
                   ),
                 ],
               ),
@@ -161,7 +161,7 @@ class Saldo extends StatelessWidget {
             Container(
                 height: 100,
                 child: VerticalDivider(
-                  color: kGrey200,
+                  color: gris2,
                 )),
             Container(
               // width: width * 0.5,
@@ -173,7 +173,7 @@ class Saldo extends StatelessWidget {
                   ),
                   Text(
                     'emitidos',
-                    style: medium(kGrey600, 16),
+                    style: medium(gris7, 16),
                   ),
                 ],
               ),
@@ -181,7 +181,7 @@ class Saldo extends StatelessWidget {
           ],
         ),
         Divider(
-          color: kGrey200,
+          color: gris2,
           height: 0,
         ),
       ],
@@ -221,7 +221,7 @@ class HeaderProfile extends StatelessWidget {
                 ),
                 Text(
                   "Agencia Tia Chochis",
-                  style: medium(kGrey600, 16),
+                  style: medium(gris7, 16),
                 ),
               ],
             )
@@ -232,12 +232,12 @@ class HeaderProfile extends StatelessWidget {
           children: [
             Icon(
               Icons.phone,
-              color: kGrey600,
+              color: gris7,
             ),
             addHorizontalSpace(16),
             Text(
               user.username ?? 'No disponible',
-              style: medium(kGrey600, 16),
+              style: medium(gris7, 16),
             ),
           ],
         ),
@@ -246,12 +246,12 @@ class HeaderProfile extends StatelessWidget {
           children: [
             Icon(
               Icons.email_outlined,
-              color: kGrey600,
+              color: gris7,
             ),
             addHorizontalSpace(16),
             Text(
               user.email ?? 'No disponible',
-              style: medium(kGrey600, 16),
+              style: medium(gris7, 16),
             ),
           ],
         ),

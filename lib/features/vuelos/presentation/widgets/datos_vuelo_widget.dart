@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:starzinfinite/core/cores.dart';
 
 Column datosVuelosWidget(
@@ -7,11 +8,11 @@ Column datosVuelosWidget(
   String? tiempo,
   String? aeSalida,
   String? ciudadSalida,
-  String? fechaSalida,
+  DateTime? fechaSalida,
   String? horaSalida,
   String? aeLlegada,
   String? ciudadLlegada,
-  String? fechaLlegada,
+  DateTime? fechaLlegada,
   String? horaLlegada,
 ) {
   return Column(
@@ -64,20 +65,21 @@ Column datosVuelosWidget(
                 children: [
                   Text(
                     aeSalida!,
-                    style: semibold(blackBeePay, 25),
+                    style: semibold(gris8, 25),
                   ),
                   addVerticalSpace(24),
                   Text(
                     ciudadSalida!,
-                    style: medium(kGrey800, 16),
+                    style: medium(gris8, 14),
                   ),
                   Text(
-                    fechaSalida!,
-                    style: regular(kGrisOscurso, 14),
+                    DateFormat.yMMMEd('es')
+                        .format(DateTime.parse(fechaSalida.toString())),
+                    style: regular(gris5, 14),
                   ),
                   Text(
                     horaSalida!,
-                    style: regular(kGrisOscurso, 14),
+                    style: regular(gris5, 14),
                   ),
                 ],
               ),
@@ -86,12 +88,12 @@ Column datosVuelosWidget(
               children: [
                 Image.asset(
                   'assets/iconos/avion.png',
-                  height: 30,
+                  height: 20,
                 ),
                 addVerticalSpace(8),
                 Text(
                   tiempo!,
-                  style: medium(kGrey800, 16),
+                  style: medium(gris8, 16),
                 ),
               ],
             ),
@@ -101,20 +103,24 @@ Column datosVuelosWidget(
                 children: [
                   Text(
                     aeLlegada!,
-                    style: semibold(blackBeePay, 25),
+                    textAlign: TextAlign.right,
+                    style: semibold(gris8, 25),
                   ),
                   addVerticalSpace(24),
                   Text(
                     ciudadLlegada!,
-                    style: medium(kGrey800, 16),
+                    textAlign: TextAlign.right,
+                    style: medium(gris8, 14),
                   ),
                   Text(
-                    fechaLlegada!,
-                    style: regular(kGrisOscurso, 14),
+                    DateFormat.yMMMEd('es')
+                        .format(DateTime.parse(fechaLlegada.toString())),
+                    textAlign: TextAlign.right,
+                    style: regular(gris5, 14),
                   ),
                   Text(
                     horaLlegada!,
-                    style: regular(kGrisOscurso, 14),
+                    style: regular(gris5, 14),
                   ),
                 ],
               ),

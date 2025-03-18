@@ -54,7 +54,7 @@ class ReservasSegment extends StatelessWidget {
         child: Text(
           title,
           textAlign: TextAlign.center,
-          style: selected ? semibold(starzAzul, 16) : regular(kGrisOscurso, 16),
+          style: selected ? semibold(starzAzul, 16) : regular(gris5, 16),
         ),
       ),
     );

@@ -165,6 +165,7 @@ class _FlightListPageState extends State<FlightListPage> {
                             MaterialPageRoute(
                               builder: (context) => ReservaFlightScreen(
                                 selectedFlight: selectedFlight!,
+                                flightSetting: widget.flightsSettings,
                               ),
                               settings: RouteSettings(name: 'receba'),
                             ),
@@ -267,7 +268,7 @@ class _FlightListPageState extends State<FlightListPage> {
                                   thickness: 1,
                                   endIndent: 8,
                                   indent: 8,
-                                  color: kGrey400),
+                                  color: gris2),
                               Padding(
                                 padding:
                                     const EdgeInsets.fromLTRB(10, 16, 10, 0),
@@ -277,11 +278,11 @@ class _FlightListPageState extends State<FlightListPage> {
                                   children: [
                                     Text(
                                       'TOTAL',
-                                      style: semibold(kGrisOscurso, 20),
+                                      style: semibold(gris5, 20),
                                     ),
                                     Text(
                                       '${flight.totalCurrency}. ${flight.totalAmountFee}',
-                                      style: semibold(kGrisOscurso, 20),
+                                      style: semibold(gris5, 20),
                                     ),
                                   ],
                                 ),
@@ -343,7 +344,7 @@ class _FlightListPageState extends State<FlightListPage> {
                   children: [
                     Text(
                       fecha!,
-                      style: regular(kGrisOscurso, 15),
+                      style: regular(gris5, 15),
                     ),
                   ],
                 ),
@@ -374,15 +375,15 @@ class _FlightListPageState extends State<FlightListPage> {
                   children: [
                     Text(
                       horaSalida!,
-                      style: medium(kGris, 20),
+                      style: medium(blackBeePay, 20),
                     ),
                     Text(
                       aeSalida!,
-                      style: medium(kGrey800, 16),
+                      style: medium(gris8, 16),
                     ),
                     Text(
                       ciudadSalida!,
-                      style: regular(kGrisOscurso, 14),
+                      style: regular(gris5, 14),
                     ),
                   ],
                 ),
@@ -393,15 +394,15 @@ class _FlightListPageState extends State<FlightListPage> {
                   conexiones >= 1
                       ? Text(
                           'Conexiones: ${conexiones}',
-                          style: medium(kGris, 15),
+                          style: medium(gris4, 15),
                         )
                       : Text(
                           'Directo',
-                          style: medium(kGris, 15),
+                          style: medium(gris4, 15),
                         ),
                   Text(
                     vueloSalida!,
-                    style: medium(kGrey800, 16),
+                    style: medium(gris8, 16),
                   ),
                 ],
               ),
@@ -413,15 +414,15 @@ class _FlightListPageState extends State<FlightListPage> {
                   children: [
                     Text(
                       horaLlegada!,
-                      style: medium(kGris, 20),
+                      style: medium(blackBeePay, 20),
                     ),
                     Text(
                       aeLlegada!,
-                      style: medium(kGrey800, 16),
+                      style: medium(gris8, 16),
                     ),
                     Text(
                       ciudadLlegada!,
-                      style: regular(kGrisOscurso, 14),
+                      style: regular(gris5, 14),
                     ),
                   ],
                 ),
@@ -453,17 +454,17 @@ class DatosVuelo extends StatelessWidget {
         children: [
           Text(
             '${datos.origen}  -  ${datos.destino}',
-            style: medium(kGrisOscurso, 16),
+            style: medium(gris5, 16),
           ),
           addHorizontalSpace(16),
           datos.tipoVuelo != "RT"
               ? Text(
                   '${DateFormat.MMMMd('es').format(DateTime.parse(datos.fechaSalida))}',
-                  style: medium(kGrisOscurso, 16),
+                  style: medium(gris5, 16),
                 )
               : Text(
                   '${DateFormat.MMMMd('es').format(DateTime.parse(datos.fechaSalida))} - ${DateFormat.MMMMd('es').format(DateTime.parse(datos.fechaRegreso))}',
-                  style: medium(kGrisOscurso, 16),
+                  style: medium(gris5, 16),
                 ),
           addHorizontalSpace(8),
           Row(
@@ -472,34 +473,34 @@ class DatosVuelo extends StatelessWidget {
               Icon(
                 Icons.supervisor_account,
                 size: 15,
-                color: kGrey600,
+                color: gris7,
               ),
               addHorizontalSpace(4),
               Text(
                 datos.adultos.toString(),
-                style: medium(kGrisOscurso, 16),
+                style: medium(gris5, 16),
               ),
               addHorizontalSpace(8),
               Icon(
                 Icons.child_care,
                 size: 15,
-                color: kGrey600,
+                color: gris7,
               ),
               addHorizontalSpace(4),
               Text(
                 datos.ninos.toString(),
-                style: medium(kGrisOscurso, 16),
+                style: medium(gris5, 16),
               ),
               addHorizontalSpace(8),
               Icon(
                 Icons.child_friendly_sharp,
                 size: 15,
-                color: kGrey600,
+                color: gris7,
               ),
               addHorizontalSpace(4),
               Text(
                 datos.bebes.toString(),
-                style: medium(kGrisOscurso, 16),
+                style: medium(gris5, 16),
               ),
             ],
           ),
@@ -542,7 +543,7 @@ class Filtros extends StatelessWidget {
               value: 2,
               child: Text(
                 'Más Cashback',
-                style: semibold(kGrisOscurso, 15),
+                style: semibold(gris5, 15),
               ),
             ),
             DropdownMenuItem(
@@ -550,7 +551,7 @@ class Filtros extends StatelessWidget {
               value: 3,
               child: Text(
                 'Más Temprano',
-                style: semibold(kGrisOscurso, 15),
+                style: semibold(gris5, 15),
               ),
             ),
           ],

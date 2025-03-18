@@ -94,7 +94,7 @@ class VuelosModel extends Vuelos {
     required String arrivalCiudad,
     required String arrivalAeropuerto,
     required String arrivalChangeDayIndicator,
-    required String arrivalDate,
+    required DateTime arrivalDate,
     required String arrivalTime,
     required String mesArrival,
     required String arrivalDateOfWeekName,
@@ -104,7 +104,7 @@ class VuelosModel extends Vuelos {
     required String departureAirport,
     required String departureCiudad,
     String? departureAeropuerto,
-    required String departureDate,
+    required DateTime departureDate,
     required String mesDeparture,
     required String departureDateOfWeekName,
     required String departureTime,
@@ -164,7 +164,7 @@ class VuelosModel extends Vuelos {
       arrivalAeropuerto: json['arrival_aeropuerto']?.toString() ?? '',
       arrivalChangeDayIndicator:
           json['arrival_change_day_indicator']?.toString() ?? '',
-      arrivalDate: json['arrival_date']?.toString() ?? '',
+      arrivalDate: DateTime.parse(json["arrival_date"]),
       arrivalTime: json['arrival_time']?.toString() ?? '',
       mesArrival: json['mes_arrival']?.toString() ?? '',
       arrivalDateOfWeekName:
@@ -175,7 +175,7 @@ class VuelosModel extends Vuelos {
       departureAirport: json['departure_airport']?.toString() ?? '',
       departureCiudad: json['departure_ciudad']?.toString() ?? '',
       departureAeropuerto: json['departure_aeropuerto']?.toString(),
-      departureDate: json['departure_date']?.toString() ?? '',
+      departureDate: DateTime.parse(json["departure_date"]),
       mesDeparture: json['mes_departure']?.toString() ?? '',
       departureDateOfWeekName:
           json['departure_date_of_week_name']?.toString() ?? '',

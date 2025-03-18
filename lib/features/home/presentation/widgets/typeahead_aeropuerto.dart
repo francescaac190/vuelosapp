@@ -68,9 +68,9 @@ class _TypeAheadAeropuertoState extends State<TypeAheadAeropuerto> {
             border: InputBorder.none,
             prefixIcon: Icon(widget.icon, size: 30, color: starzAzul),
             hintText: widget.label,
-            hintStyle: medium(kGrey600, 17),
+            hintStyle: medium(gris7, 17),
             suffixIcon: IconButton(
-              icon: const Icon(Icons.close, size: 20, color: kGrey600),
+              icon: const Icon(Icons.close, size: 20, color: gris7),
               onPressed: () {
                 setState(() {
                   widget.controller.clear();
@@ -90,7 +90,7 @@ class _TypeAheadAeropuertoState extends State<TypeAheadAeropuerto> {
           ),
           subtitle: Text(
             suggestion.concatenacion,
-            style: regular(kGrey600, 14),
+            style: regular(gris7, 14),
           ),
         );
       },

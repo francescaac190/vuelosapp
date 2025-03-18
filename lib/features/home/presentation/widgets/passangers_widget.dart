@@ -45,7 +45,7 @@ class PasajerosBagsClasses extends StatelessWidget {
       children: <Widget>[
         Container(
           padding: const EdgeInsets.only(right: 2),
-          child: Icon(icon, size: 15, color: kGrey600),
+          child: Icon(icon, size: 15, color: gris7),
         ),
         Text(count.toString(), style: medium(blackBeePay, 14)),
       ],
@@ -100,7 +100,7 @@ class PasajerosBagsClasses extends StatelessWidget {
       children: <Widget>[
         Row(
           children: <Widget>[
-            Icon(icon, size: 20, color: kGrey600),
+            Icon(icon, size: 20, color: gris7),
             Container(
               padding: const EdgeInsets.all(8),
               child: Text(label, style: regular(blackBeePay, 18)),
@@ -112,11 +112,11 @@ class PasajerosBagsClasses extends StatelessWidget {
           child: CupertinoSpinBox(
             decrementIcon: Icon(
               Icons.remove_circle_outline,
-              color: value <= 0 ? kGrey600 : starzAzul,
+              color: value <= 0 ? gris7 : starzAzul,
             ),
             incrementIcon: Icon(
               Icons.add_circle_outline,
-              color: provider.getRemainingSeats() > 0 ? starzAzul : kGrey600,
+              color: provider.getRemainingSeats() > 0 ? starzAzul : gris7,
             ),
             decoration: BoxDecoration(
               color: blanco,
